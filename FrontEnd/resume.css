@@ -3,11 +3,6 @@
   margin: auto;
 }
 
-
-/*body {
-    min-width: 500px;
-}*/
-
 div {
   border-radius: 5px;
 }
@@ -56,8 +51,7 @@ div {
   height: 1000px;
 }
 
-p,
-li {
+p, li {
   font-family: 'Cormorant Garamond';
 }
 
@@ -77,9 +71,16 @@ a {
   text-decoration: none;
 }
 
+.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
 @media only screen and (max-width: 430px) {
-  .left,
-  .right {
+  .left, .right {
     display: none;
   }
   .stuff {
